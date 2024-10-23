@@ -1,0 +1,93 @@
+/* DCU Champions Task Manager Styling */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* Container */
+.todo-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+/* DCU logo */
+.dcu-logo {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+/* Heading and description */
+header h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #003865;
+}
+
+header p {
+    font-size: 14px;
+    color: #5d5d5d;
+}
+
+/* Input and button styles */
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #003865;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #005eb8;
+}
+
+/* Task List */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 12px;
+    background-color: #f9f9f9;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+li button {
+    background-color: #d9534f;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+li button:hover {
+    background-color: #c9302c;
+}
